@@ -92,6 +92,8 @@
       ]
     },
     {
+<<<<<<< HEAD
+=======
       "cell_type": "code",
       "execution_count": null,
       "metadata": {
@@ -142,6 +144,7 @@
       ]
     },
     {
+>>>>>>> abiodun
       "cell_type": "markdown",
       "metadata": {
         "id": "ysfGS3bEBR6U"
@@ -169,6 +172,8 @@
     {
       "cell_type": "markdown",
       "metadata": {
+<<<<<<< HEAD
+=======
         "id": "9UlDN4YPBNV6"
       },
       "source": []
@@ -216,6 +221,7 @@
     {
       "cell_type": "markdown",
       "metadata": {
+>>>>>>> abiodun
         "id": "gYjzGKWaQUSm"
       },
       "source": [
@@ -234,6 +240,12 @@
     },
     {
       "cell_type": "code",
+<<<<<<< HEAD
+      "execution_count": null,
+      "metadata": {
+        "id": "btvyGjq9QF-q",
+        "outputId": "bfa40e20-8244-4f23-9b24-d8a792aed837"
+=======
       "execution_count": 1,
       "metadata": {
         "id": "4fFtzihM9-Mg"
@@ -346,6 +358,7 @@
         },
         "id": "TNZZoZ3YBLWw",
         "outputId": "6bc7ef5f-b8cf-49ef-da79-495e2d2386c7"
+>>>>>>> abiodun
       },
       "outputs": [
         {
@@ -392,8 +405,50 @@
         "\n",
         "4. Iteration 4: The values of m and b are now very close to the optimal values (approximately 1.5). The MSE is extremely small (8.87e-11), indicating a near-perfect fit.\n",
         "\n",
+<<<<<<< HEAD
+        "def compute_cost(m, b, X, Y):\n",
+        "    \"\"\"\n",
+        "    Computes the Mean Squared Error (MSE) cost function.\n",
+        "\n",
+        "    Args:\n",
+        "        m (float): Slope of the line.\n",
+        "        b (float): Intercept of the line.\n",
+        "        X (numpy.ndarray): Feature values.\n",
+        "        Y (numpy.ndarray): Target values.\n",
+        "\n",
+        "    Returns:\n",
+        "        float: Mean Squared Error (MSE).\n",
+        "    \"\"\"\n",
+        "    y_pred = m * X + b  # Predicted values\n",
+        "    error = Y - y_pred  # Differences from actual values\n",
+        "    return np.mean(error ** 2)  # Compute MSE\n",
+        "\n",
+        "def gradient_descent(m, b, alpha, num_iterations, tolerance, X, Y):\n",
+        "    \"\"\"\n",
+        "    Performs gradient descent optimization to find the best-fit line.\n",
+        "\n",
+        "    Args:\n",
+        "        m (float): Initial slope.\n",
+        "        b (float): Initial y-intercept.\n",
+        "        alpha (float): Learning rate.\n",
+        "        num_iterations (int): Maximum number of iterations.\n",
+        "        tolerance (float): Stopping condition for small cost changes.\n",
+        "        X (numpy.ndarray): Feature values.\n",
+        "        Y (numpy.ndarray): Target values.\n",
+        "\n",
+        "    Returns:\n",
+        "        tuple: Optimized values of m and b.\n",
+        "    \"\"\"\n",
+        "    prev_cost = float('inf')  # Initial high cost\n",
+        "\n",
+        "    for iteration in range(1, num_iterations + 1):\n",
+        "        # Compute predictions\n",
+        "        y_pred = m * X + b\n",
+        "        error = Y - y_pred  # Residual error\n",
+=======
         "\n",
         "5. Iteration 5: The algorithm has converged to the optimal solution. The MSE is exceptionally small (3.14e-16), essentially zero. The values of m and b are extremely precise.\n",
+>>>>>>> abiodun
         "\n",
         "\n",
         "##  Extracting and Printing Results"
@@ -447,7 +502,13 @@
         "\n",
         "**Optimized m: 1.499999985165983**\n",
         "\n",
+<<<<<<< HEAD
+        "        prev_cost = cost  # Update previous cost for next iteration\n",
+        "\n",
+        "    return m, b  # Return optimized values\n",
+=======
         "This is the final optimized value for the slope of the line. It's extremely close to 1.5, which is the exact slope of the line that perfectly fits the points (1, 3) and (3, 6).\n",
+>>>>>>> abiodun
         "\n",
         "**Optimized b: 1.5000000393944612**\n",
         "\n",
