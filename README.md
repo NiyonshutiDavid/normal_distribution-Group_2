@@ -9,7 +9,7 @@ This repo contains assignment of Probability Distributions, Bayesian Probability
 * In addition, understanding Bayesian probability helps me differentiate it from other probabilistic approaches, such as frequentist methods. While frequentist methods rely solely on observed data, Bayesian methods allow us to integrate prior information, making them more suitable for real-world problems where data might be limited or uncertain. This approach is especially valuable in decision-making processes like medical diagnosis, risk assessment, and even everyday situations like planning events based on weather forecasts. Depending on the dataset and the context, Bayesian analysis enables us to refine our predictions iteratively as new evidence becomes available, leading to more accurate and reliable conclusions.
 
   
-### Abiodun Israel Kumuyi:
+### Abiodun Israel Kumuyi: Part 3 (Gradient Descent)
 * Working on this task really helped me get a solid grasp on how gradient descent works in practice. It was cool to see how the slope (m) and intercept (b) were gradually updated and how the cost dropped as we iterated through the process. Using SciPy’s gradient function made it easier to compute the necessary changes without hiding any of the steps, which gave me a much clearer picture of the whole optimization process. I also learned how crucial the learning rate and convergence criteria are; tweaking these parameters even a little can make a big difference in how quickly and accurately the model learns. Overall, this project has strengthened my understanding of linear regression.
   
 ### Jean Pierre Niyongabo: Worked on part 2 example 2 : Bayesian Probability
